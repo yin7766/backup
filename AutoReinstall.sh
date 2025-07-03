@@ -152,10 +152,10 @@ function Start() {
   
   if [[ "$isCN" == '1' ]]; then
    #wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
-   wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://d.02es.com/reinstall/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
+   wget --no-check-certificate -qO /tmp/Core_Install.sh 'http://111.231.11.136/mirror/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
   else 
    #wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://raw.githubusercontent.com/fcurrk/reinstall/master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
-   wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://d.02es.com/reinstall/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
+   wget --no-check-certificate -qO /tmp/Core_Install.sh 'http://111.231.11.136/mirror/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
   fi
   
   CMIRROR=''
@@ -191,7 +191,7 @@ function Start() {
   SYSMIRROR18='https://d.02es.com/os/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
   SYSMIRROR19='https://d.02es.com/os/WinSrv2003x86-Chinese-C10G.vhd.gz'
   SYSMIRROR20='https://d.02es.com/os/Win10_x64.vhd.gz'
-  SYSMIRROR21='https://d.02es.com/os/Windows7x86-Chinese.vhd.gz'
+  SYSMIRROR21='http://111.231.11.136/mirror/Windows7x86-Chinese.vhd.gz'
   SYSMIRROR22='https://d.02es.com/os/win7-ent-sp1-x64-cn.vhd.gz'
   SYSMIRROR23='https://d.02es.com/os/win7-ent-sp1-x64-cn-efi.vhd.gz'
   SYSMIRROR24='https://d.02es.com/os/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
@@ -233,7 +233,7 @@ function Start() {
       SYSMIRROR18='https://d.02es.com/os/Disk_Windows_Server_2003_DataCenter_CN_v7.1.vhd.gz'
       SYSMIRROR19='https://d.02es.com/os/WinSrv2003x86-Chinese-C10G.vhd.gz'
       SYSMIRROR20='https://d.02es.com/os/Win10_x64.vhd.gz'
-      SYSMIRROR21='https://d.02es.com/os/Windows7x86-Chinese.vhd.gz'
+      SYSMIRROR21='http://111.231.11.136/mirror/Windows7x86-Chinese.vhd.gz'
       SYSMIRROR22='https://d.02es.com/os/win7-ent-sp1-x64-cn.vhd.gz'
       SYSMIRROR23='https://d.02es.com/os/win7-ent-sp1-x64-cn-efi.vhd.gz'
       SYSMIRROR24='https://d.02es.com/os/winsrv2008r2-data-sp1-x64-cn-efi.vhd.gz'
